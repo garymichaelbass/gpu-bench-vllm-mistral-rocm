@@ -1,4 +1,4 @@
-# vllm-mistral-rocm-bench/client_run.py
+# gpu-bench-vllm-mistral-rocm/client_run.py
 # Updated: 20260423  (openai>=1.0 client API)
 
 import time, json, uuid

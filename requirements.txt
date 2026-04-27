@@ -1,4 +1,4 @@
-# vllm-mistral-rocm-bench/requirements.txt
+# gpu-bench-vllm-mistral-rocm/requirements.txt
 # Updated: 20260423  (ROCm 7.2.2, vLLM 0.19.1)
 #
 # NOTE: PyTorch is bundled inside the vLLM ROCm wheel.

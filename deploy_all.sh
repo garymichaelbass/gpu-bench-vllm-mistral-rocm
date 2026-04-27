@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# vllm-mistral-rocm-bench/deploy_all.sh
+# gpu-bench-vllm-mistral-rocm/deploy_all.sh
 # Execution:   bash deploy_all.sh
 # Updated:     20260424  (ROCm 7.2.2, vLLM 0.19.1, Grafana 13.0.1)
 #              20260424  Step 5 → bench_runner.py; Step 10 → corrected column names
@@ -236,7 +236,7 @@ sudo cp grafana/dashboards/mistral-bench.json \
 sudo chown -R grafana:grafana /var/lib/grafana/dashboards
 
 # ── Copy initial metrics db so datasource test passes ─────
-sudo cp /root/vllm-mistral-rocm-bench/metrics.db /var/lib/grafana/metrics.db
+sudo cp /root/gpu-bench-vllm-mistral-rocm/metrics.db /var/lib/grafana/metrics.db
 sudo chown grafana:grafana /var/lib/grafana/metrics.db
 
 sudo systemctl restart grafana-server

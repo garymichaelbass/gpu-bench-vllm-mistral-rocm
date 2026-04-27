@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# vllm-mistral-rocm-bench/run_vllm_server.sh
+# gpu-bench-vllm-mistral-rocm/run_vllm_server.sh
 # Updated: 20260423  (vLLM 0.19.1 — uses `vllm serve` CLI)
 set -euo pipefail
 

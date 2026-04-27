@@ -1,4 +1,4 @@
-# vllm-mistral-rocm-bench
+# gpu-bench-vllm-mistral-rocm
 
 **vLLM · Mistral-7B-Instruct-v0.2 · ROCm benchmark — no Docker**
 
@@ -35,8 +35,8 @@
 ## Quick Start
 
 ```bash
-git clone https://github.com/garymichaelbass/vllm-mistral-rocm-bench.git
-cd vllm-mistral-rocm-bench
+git clone https://github.com/garymichaelbass/gpu-bench-vllm-mistral-rocm.git
+cd gpu-bench-vllm-mistral-rocm
 bash deploy_all.sh
 ```
 

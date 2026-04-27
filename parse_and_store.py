@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# vllm-mistral-rocm-bench/parse_and_store.py
+# gpu-bench-vllm-mistral-rocm/parse_and_store.py
 # Updated: 20260424 — extended schema for bench_runner.py output
 
 import json
